@@ -1,3 +1,4 @@
+//Rotating Arrays using k values
 //Right rotation array
 import java.util.*;
 public class prg5 {
