@@ -19,10 +19,12 @@ public class prg6 {
                 li.add(arr2[j++]);
             }
         }
-
+//adding remaining elemnets of array1
         while(i<arr1.length){
             li.add(arr1[i++]);
         }
+        //adding remaining elements of array2
+        
         while(j<arr2.length){
             li.add(arr2[j++]);
         }
