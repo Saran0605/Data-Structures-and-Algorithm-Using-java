@@ -23,6 +23,7 @@ public class prg4 {
         
     }
     public static void main(String[] args){
+        //use scnnaer for input user strings
         String s = "aababcd";
         int res = slidingwindow(s);
         System.out.println(res);
