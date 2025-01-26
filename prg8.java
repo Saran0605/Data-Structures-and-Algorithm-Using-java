@@ -3,6 +3,7 @@
 import java.util.*;
 public class prg8 {
     public static void main(String[] args){
+        //include scanner if you need to get string from user
         String s1 = "abcdaf";
         String s2 = "acbcf";
         int res = lcs(s1,s2);
