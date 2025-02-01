@@ -10,6 +10,7 @@ public class prg8 {
         System.out.print(res);
 
     }
+    //lcs method for finding common subsequence
     public static int lcs(String s1, String s2){
         int [][] dp = new int[s1.length()+1][s2.length()+1];
         for(int i=0;i<dp.length;i++){
