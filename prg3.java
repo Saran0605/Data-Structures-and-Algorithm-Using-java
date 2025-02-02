@@ -6,10 +6,12 @@ public class prg3{
         int low =0,high = arr.length-1;
         while(low<high){
             int sum = arr[low] + arr[high];
+            //if the element matches with target,then it will be returned
             if(sum == target){
                 return new int[]{arr[low],arr[high]};
 
             }
+                //if low means just increase the low pointer
             else if(sum<target){
                 low++;
             }
