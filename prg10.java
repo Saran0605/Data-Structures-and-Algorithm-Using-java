@@ -1,4 +1,5 @@
 //Count and say problem
+//by using recurssion function
 public class prg10 {
     public static void main(String[] args){
         int n = 5;
