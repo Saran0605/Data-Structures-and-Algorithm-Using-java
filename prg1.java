@@ -16,6 +16,7 @@ public class prg1 {
         //use scanner for input purposes
         int[] arr = {1,2,3,5,6};
         int n = 6;
+        //calling the method for output
         int res = missing(arr,n);
         System.out.println(res);
     }
