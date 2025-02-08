@@ -8,10 +8,10 @@ public class prg10 {
     }
     public static String count(int n){
         if(n==1){
-            return "1";
+            return "1";//base case
         }
-        String pre = count(n-1);
-        return getseq(pre);
+        String pre = count(n-1);//recursive case
+        return getseq(pre);//return to another method
 
     }
     public static String getseq(String pre){
