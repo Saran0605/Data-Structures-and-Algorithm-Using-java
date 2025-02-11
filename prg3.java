@@ -26,6 +26,7 @@ public class prg3{
     public static void main(String[] args){
         int[] arr = {1,2,3,4,5,6};
         int target = 6;
+        //call the method
         int res[] = twosum(arr,target);
         System.out.println(res[0]+","+res[1]);
     }
