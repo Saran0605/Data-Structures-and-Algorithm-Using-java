@@ -4,6 +4,7 @@ public class prg6 {
     public static void main(String[] args){
         int arr1[] = {1,3,5,7};
         int arr2[] = {2,4,6,8,9,20};
+        //calling the method
         merge(arr1,arr2);
     }
     public static void merge(int[] arr1,int[] arr2){
