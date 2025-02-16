@@ -15,6 +15,7 @@ public class prg10 {
 
     }
     public static String getseq(String pre){
+        //creating a string builder
         StringBuilder s = new StringBuilder();
         int i = 0;
         int len = pre.length();
